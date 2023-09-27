@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login details",
+        "description": "",
+        "id": "fabindia-application-test;login-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9355091501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should navigate to the application",
+            "match": {
+              "location": "Login_Page_Step_Definition.userShouldNavigateToTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 707700800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should move to login dropdown and click Log-in",
+            "match": {
+              "location": "Login_Page_Step_Definition.userShouldMoveToLoginDropdownAndClickLogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1974752101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the Email Radio Button",
+            "match": {
+              "location": "Login_Page_Step_Definition.userShouldClickTheEmailRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246479200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should enter the username \"velusasi.1202@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"velusasi.1202@gmail.com\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Login_Page_Step_Definition.userShouldEnterTheUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133789500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter the passkey \"ruby30@K\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ruby30@K\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Login_Page_Step_Definition.userShouldEnterThePasskey(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4111272399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Login_Page_Step_Definition.userShouldClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fp"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Kids Page",
+        "description": "",
+        "id": "fabindia-application-test;kids-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228307700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should click the kids section",
+            "match": {
+              "location": "Kids_Page_Step_Definition.userShouldClickTheKidsSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4189370600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should click the boys ethnic wear section in the below dropdown",
+            "match": {
+              "location": "Kids_Page_Step_Definition.userShouldClickTheBoysEthnicWearSectionInTheBelowDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5396236400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should click the size and select",
+            "match": {
+              "location": "Kids_Page_Step_Definition.userShouldClickTheSizeAndSelect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019834901,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should click the category and select \"Kurta Sets\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurta Sets\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Kids_Page_Step_Definition.userShouldClickTheCategoryAndSelect(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@kp"
+          }
+        ]
+      }
+    ],
+    "name": "FabIndia Application Test",
+    "description": "",
+    "id": "fabindia-application-test",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\fabindia.feature",
+    "tags": []
+  }
+]

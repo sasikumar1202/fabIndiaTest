@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.36608">
+    <testcase classname="FabIndia Application Test" name="Login details" time="19.532232">
+        <system-out><![CDATA[Given user should navigate to the application...............................passed
+And user should move to login dropdown and click Log-in.....................passed
+And user should click the Email Radio Button................................passed
+And user should enter the username "velusasi.1202@gmail.com"................passed
+And user should enter the passkey "ruby30@K"................................passed
+Then user should click the login button.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FabIndia Application Test" name="Kids Page" time="10.833848">
+        <system-out><![CDATA[Given user should click the kids section....................................passed
+And user should click the boys ethnic wear section in the below dropdown....passed
+And user should click the size and select...................................passed
+And user should click the category and select "Kurta Sets"..................passed
+]]></system-out>
+    </testcase>
+</testsuite>
